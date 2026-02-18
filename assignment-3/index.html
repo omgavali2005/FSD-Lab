@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Assignment-3 | Form Validation</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="form-container">
+        <form id="myForm">
+            <h2>Create Account</h2>
+
+            <div class="input-group">
+                <input type="text" id="name" placeholder="Full Name">
+                <small id="nameError"></small>
+            </div>
+
+            <div class="input-group">
+                <input type="text" id="email" placeholder="Email Address">
+                <small id="emailError"></small>
+            </div>
+
+            <div class="input-group">
+                <input type="password" id="password" placeholder="Password">
+                <small id="passError"></small>
+            </div>
+
+            <div class="input-group">
+                <input type="password" id="confirmPassword" placeholder="Confirm Password">
+                <small id="confirmError"></small>
+            </div>
+
+            <button type="submit">Register</button>
+        </form>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
